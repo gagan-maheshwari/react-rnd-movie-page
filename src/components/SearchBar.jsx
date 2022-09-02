@@ -13,8 +13,6 @@ const SearchBar = () =>
 	{
 		e.preventDefault();
 
-		alert(`/search/${searchTerm}`);
-
 		if (searchTerm)
 		{
 			navigate(`/search/${searchTerm}`);
